@@ -1,0 +1,10 @@
+pandas
+numpy
+sklearn
+gunicorn
+Flask
+evidently
+dill
+matplotlib
+kaggle
+-e .

@@ -1,0 +1,24 @@
+columns:
+  online_order: category
+  book_table: category
+  votes: int64
+  rest_type: object                     
+  cuisines: int64                
+  approx_cost(for two people): float64                                           
+  listed_in(type): category              
+  listed_in(city): object
+  Rate: float64
+      
+
+numerical_columns:
+  - votes
+  - cuisines
+  - approx_cost(for two people)
+
+
+categorical_columns:
+  - online_order
+  - book_table
+  - listed_in(type)
+
+target_column: Rate
